@@ -14,10 +14,12 @@ h1, h2, p, div {
 img {
   max-width: 100%;
 }
+
 html {
   height: 100%;
-  margin:0;
+  margin: 0;
 }
+
 body {
   max-width: 1000px;
   margin: 0 auto 0 auto;
@@ -48,13 +50,15 @@ main {
 
 footer {
   /* margin-top: auto auto 0 auto; */
-  font-family: 'Open Sans', sans-serif;
+  font: 0.75em "Open Sans", sans-serif;
   color: var(--main-dark);
   text-align: center;
-  font-size: 0.75em;
-  flex-shrink:1;
+  flex-shrink: 1;
 }
 
+footer p {
+  margin: 0;
+}
 .logo {
   max-height: 100%;
   float: left;
@@ -62,19 +66,14 @@ footer {
 
 h1 {
   text-align: right;
-  font-family: 'Red Hat Display', sans-serif;
+  font: small-caps lighter 2em "Red Hat Display", sans-serif;
   margin: 0px;
-  text-transform: uppercase;
-  font-weight: lighter;
 }
 
 h2 {
   text-align: right;
-  font-family: 'Red Hat Display', sans-serif;
+  font: small-caps lighter 1em "Red Hat Display", sans-serif;
   margin: 0px;
-  text-transform: uppercase;
-  font-weight: lighter;
-  font-size: 1em;
 }
 
 @media screen and (max-width:400px) {
@@ -88,11 +87,10 @@ h2 {
 }
 
 .subtitle {
-  font-family: 'Red Hat Display', sans-serif;
+  font: small-caps 2em "Red Hat Display", sans-serif;
+  /* letter-spacing: 2px; */
   color: var(--main-gray);
-  letter-spacing: 2px;
   margin: .25em;
-  font-size: 2em;
 }
 
 .work-container {
@@ -101,25 +99,22 @@ h2 {
   justify-content: space-evenly;
 }
 
-.work .work-details {
+.work .sample-details {
   position: absolute;
   bottom: 0;
   width: 100%;
   background-color: rgba(128, 128, 255, .85);
 }
 
-.work-title {
-  text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+.sample-title {
+  font: small-caps 1em "Open Sans", sans-serif;
 }
 
 .work {
   min-width: 200px;
   max-width: 100%;
   height: 200px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: center/cover no-repeat;
   text-align: center;
   flex-grow: 1;
   position: relative;
@@ -127,15 +122,15 @@ h2 {
 }
 
 .sample1 {
-  background-image: url('img/sample1.png');
+  background-image: url("img/sample1.png");
 }
 
 .sample2 {
-  background-image: url('img/sample2.png');
+  background-image: url("img/sample2.png");
 }
 
 .sample3 {
-  background-image: url('img/sample3.png');
+  background-image: url("img/sample3.png");
 }
 
 .clear {
@@ -144,11 +139,11 @@ h2 {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font: 1em "Open Sans", sans-serif;
 }
 
 a {
-  font-family: 'Open Sans', sans-serif;
+  font: 1em "Open Sans", sans-serif;
   font-size: .75em;
   text-decoration: none;
   color: var(--main-dark);

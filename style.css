@@ -108,6 +108,11 @@ h2 {
 
 .sample-title {
   font: small-caps 1em "Open Sans", sans-serif;
+  color: #fff;
+}
+
+.sample-details a {
+  color: #fff;
 }
 
 .work {

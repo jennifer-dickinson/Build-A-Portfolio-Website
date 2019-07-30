@@ -51,7 +51,7 @@ main {
 footer {
   /* margin-top: auto auto 0 auto; */
   font: 0.75em "Open Sans", sans-serif;
-  color: var(--main-dark);
+  color: var(--main-gray);
   text-align: center;
   flex-shrink: 1;
 }

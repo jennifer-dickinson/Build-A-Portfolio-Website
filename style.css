@@ -4,7 +4,7 @@
 */
 :root {
   --main-gray: #7d97ad;
-  --main-blue: #02b3e4;
+  --main-blue: #8080FF;
   --main-dark: #2d3c49;
 }
 
@@ -23,7 +23,7 @@ body {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  height: calc( 100% - 20px );
+  height: calc(100% - 20px);
 }
 
 header {
@@ -46,7 +46,7 @@ header .title {
 }
 
 footer {
-  margin-top:auto;
+  margin-top: auto;
   flex-shrink: 0;
   font-family: 'Open Sans', sans-serif;
   color: var(--main-dark);
@@ -104,7 +104,7 @@ h2 {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: rgba(2, 179, 228, .85);
+  background-color: rgba(128, 128, 255, .85);
 }
 
 .work-title {
@@ -126,15 +126,15 @@ h2 {
 }
 
 .sample1 {
-  background-image:url('img/sample1.png');
+  background-image: url('img/sample1.png');
 }
 
 .sample2 {
-  background-image:url('img/sample2.png');
+  background-image: url('img/sample2.png');
 }
 
 .sample3 {
-  background-image:url('img/sample3.png');
+  background-image: url('img/sample3.png');
 }
 
 .clear {

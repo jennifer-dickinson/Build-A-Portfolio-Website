@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="200" height="200" viewBox="0, 0, 200, 200">
+  <g id="Background">
+    <rect x="0" y="0" width="200" height="200" fill="#FFFFFF" fill-opacity="0"/>
+  </g>
+  <g id="Layer_1">
+    <path d="M75.86,194.443 L33.182,169.271 L8.542,125.672 L8.542,75.328 L33.182,31.729 L75.86,6.557 L125.14,6.557 L167.818,31.729 L192.458,75.328 L192.458,125.672 L167.818,169.271 L125.14,194.443 L75.86,194.443" fill-opacity="0" stroke="#000000" stroke-width="1" id="Shape"/>
+    <path d="M57.511,186.284 L21.284,152.833 L6.284,105.359 L16.528,56.583 L49.273,19.574 L95.744,4.25 L143.489,14.716 L179.716,48.167 L194.716,95.641 L184.472,144.417 L151.727,181.426 L105.256,196.75 L57.511,186.284" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <text transform="matrix(1, 0, 0, 1, 100, 104)" id="J">
+      <tspan x="-43.348" y="48.669" font-family="Red Hat Display" font-size="144" fill="#8080FF">J</tspan>
+    </text>
+  </g>
+</svg>

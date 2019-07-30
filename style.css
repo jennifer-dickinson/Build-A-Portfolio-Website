@@ -2,7 +2,6 @@
   Author: Jennifer Salas
   Date Created: 7/29/2019
 */
-
 :root {
   --main-gray: #7d97ad;
   --main-blue: #02b3e4;
@@ -13,12 +12,8 @@ h1, h2, p, div {
   color: var(--main-dark);
 }
 
-header {
-  padding: 10px;
-  border-bottom: 3px solid var(--main-gray);
-  height: 10vh;
-  margin-bottom: 10px;
-  vertical-align: center;
+img {
+  max-width: 100%;
 }
 
 body {
@@ -28,19 +23,33 @@ body {
   padding: 10px;
 }
 
-h1, h2 {
+header {
+  padding: 10px;
+  border-bottom: 3px solid var(--main-gray);
+  height: 10vh;
+  margin-bottom: 10px;
+  vertical-align: center;
+}
+
+.logo {
+  max-height: 100%;
+  float: left;
+}
+
+h1 {
   text-align: right;
   font-family: 'Red Hat Display', sans-serif;
-  margin: 0;
+  margin: 0px 10px 0px 0px;
   text-transform: uppercase;
   font-weight: lighter;
 }
 
-h1 {
-  margin-top: 10;
-}
-
 h2 {
+  text-align: right;
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: lighter;
   font-size: 1em;
 }
 
@@ -52,71 +61,17 @@ h2 {
   font-size: 2em;
 }
 
-@media screen and (max-width:400px) {
-  .work {
-    width: 100%;
-  }
-
-  .work-container {
-    display: block;
-  }
-
-  h1 {
-    font-size: 1.5em;
-  }
-
-  h2 {
-    font-size: 1em;
-  }
-
-  .subtitle {
-    text-align: center;
-    font-size: 1.5em;
-  }
+.work-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-@media screen and (min-width: 400px) {
-  .work-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-
-  .work {
-    flex-grow: 1;
-  }
-}
-
-.logo {
-  max-height: 100%;
-  float: left;
-}
-
-img {
-  max-width: 100%;
-}
-
-.clear {
+.work .work-details {
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  height: 100%;
-}
-
-.title {
-  text-transform: uppercase;
-  font-family: 'Nunito', sans-serif;
-}
-
-p {
-  font-family: 'Open Sans', sans-serif;
-}
-
-.sample-image {
-  min-width: 200px;
-  max-width: 100%;
-  height: 200px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: rgba(2, 179, 228, .85);
 }
 
 .work-title {
@@ -125,7 +80,25 @@ p {
 }
 
 .work {
+  min-width: 200px;
+  max-width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
+  flex-grow: 1;
+  position: relative;
+  margin: 1px;
+}
+
+.clear {
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {

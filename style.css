@@ -17,10 +17,13 @@ img {
 }
 
 body {
-  max-width: 1000;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: calc( 100% - 20px );
 }
 
 header {
@@ -36,6 +39,19 @@ header .title {
   position: absolute;
   bottom: 10px;
   right: 0;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+footer {
+  margin-top:auto;
+  flex-shrink: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--main-dark);
+  text-align: center;
+  font-size: 0.75em;
 }
 
 .logo {
@@ -107,6 +123,18 @@ h2 {
   flex-grow: 1;
   position: relative;
   margin: 1px;
+}
+
+.sample1 {
+  background-image:url('img/sample1.png');
+}
+
+.sample2 {
+  background-image:url('img/sample2.png');
+}
+
+.sample3 {
+  background-image:url('img/sample3.png');
 }
 
 .clear {
